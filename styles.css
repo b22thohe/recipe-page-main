@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Young';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "Young", serif;
+}
+
+html, body {
+    margin: 0;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    margin-top: 0;
+    color: hsl(332, 51%, 32%);
+}
+
+hr {
+    margin-top: 2.5rem;
+}
+
+main {
+    margin: 3.2rem;
+}
+
+p, li, span, table td {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.6rem;
+}
+
+section.nutrition {
+    margin-bottom: 2rem;
+}
+
+section.preparation-info {
+    padding: 2rem;
+    background-color: hsl(330, 100%, 98%);
+}
+
+span.attribution-heart {
+    color: red;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td:first-child {
+    padding-left: 3rem;
+}
+
+table tr td:last-child {
+    padding-right: 2rem;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+table tr:last-of-type td {
+    border-bottom: none;
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+ul.preparation-list {
+    list-style-position: outside;
+    padding-left: 3rem;
+}
+
+ul.preparation-list li {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul.ingredients-list, ol.instructions-list {
+    padding-left: 2rem;
+
+}
+
+ul.ingredients-list li {
+    list-style-position: outside;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+ol.instructions-list {
+    list-style-position: outside;
+}
+
+ol.instructions-list li {
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    margin: 2rem 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+span.bold {
+    font-weight: 600;
+}
