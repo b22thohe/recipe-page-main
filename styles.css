@@ -20,6 +20,10 @@ html, body {
     font-size: 62.5%;
 }
 
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
 h1 {
     font-size: 3.6rem;
     font-weight: 400;
@@ -43,7 +47,8 @@ hr {
 }
 
 main {
-    margin: 3.2rem;
+    padding: 3.2rem;
+    background-color: hsl(0, 0%, 100%);
 }
 
 p, li, span, table td {
@@ -132,4 +137,13 @@ ol.instructions-list li {
 
 span.bold {
     font-weight: 600;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 528px) {
+    body {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
